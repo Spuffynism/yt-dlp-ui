@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: Zip project
 on:
   push:
     branches:
@@ -14,3 +14,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: ui.zip
+          path: ui.zip
