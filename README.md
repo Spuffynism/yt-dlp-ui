@@ -1,4 +1,4 @@
-# yt-dlp-ui
+# 🍿 yt-dlp-ui
 
 A (very) simple UI for yt-dlp.
 
