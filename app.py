@@ -38,10 +38,15 @@ def show_inputs() -> (str, str):
     return url, output_directory
 
 
-st.title('🍿 Downloader')
+def main():
+    st.title('🍿 Downloader')
 
-url, directory = show_inputs()
+    url, directory = show_inputs()
 
-if st.button('Download', disabled=not url):
-    download(url, directory)
-    st.balloons()
+    if st.button('Download', disabled=not url):
+        download(url, directory)
+        st.balloons()
+
+
+if __name__ == "__main__":
+    main()
