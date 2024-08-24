@@ -9,6 +9,8 @@ A (very) simple UI for yt-dlp.
 ## Setup
 
 ```shell
-chmod +x run.sh
-./run.sh
+uv venv
+source .venv/bin/activate
+uv pip install -r pyproject.toml
+uv run streamlit run app.py
 ```

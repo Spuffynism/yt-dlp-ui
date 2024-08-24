@@ -1,0 +1,15 @@
+[project]
+name = "yt-dlp-ui"
+version = "0.1.0"
+description = "A (very) simple UI for yt-dlp"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ruff>=0.6.2",
+    "streamlit>=1.37.1",
+    "yt-dlp>=2024.8.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
